@@ -58,7 +58,7 @@
 .Card_float {
   height: 400px;
   width: 300px;
-  padding-top: 80px;
+  /* padding-top: 80px; */
   text-align: center;
   background: #52c0f5;
   color: #fff;
