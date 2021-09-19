@@ -1,0 +1,56 @@
+.header {
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white !important;
+  width: 100%;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%);
+  position: sticky;
+  margin-bottom: 10px;
+}
+
+.header_left > img {
+  width: 250px;
+  /* margin-left: 35px; */
+  padding: 2px;
+}
+
+.headre_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 55%;
+}
+
+.headre_right > div > h3 {
+  font-size: 20px;
+  color: rgba(23, 62, 133, 0.87);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.headre_right > div > h3:hover {
+  color: black;
+}
+
+.headre_right > .active{
+   text-decoration: underline 2px rgba(23, 62, 133, 0.87);
+}
+
+.button {
+  background: rgba(23, 62, 133, 0.87) !important;
+  color: white !important;
+  width: 200px !important;
+  /* border:1px solid gray; */
+  height: 40px !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  border-radius: 40px !important;
+}
+
+.button:hover {
+  color: black !important;
+  background-color: whitesmoke !important;
+}
